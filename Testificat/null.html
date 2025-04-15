@@ -1,12 +1,86 @@
 <!doctype html>
 <html lang="pt-BR">
-    <body>
-    <table>
 
-        <tr><th>A</th><th>C</th></tr>
+<head>
+    <meta charset="UTF-8">
+    <title>Testificat - Null</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #eaf4ff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        header h1 {
+            font-size: 24px;
+        }
+        
+        header p {
+            margin-top: 8px;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        nav {
+            width: 200px;
+            border: 1px solid lightgreen;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        
+        main {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+</head>
 
-        <tr><th>B</th><th>D</th></tr>
+<body>
+    <header>
+        <h1>Arquivo Nulo</h1>
+        <p>um arquivo sobre conexões simples</p>
+    </header>
 
-    </table>
-    </body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Vantagens</li>
+                <li>Comandos</li>
+                <li>Comunidade</li>
+            </ul>
+        </nav>
+        <main>
+            <p> Tabela de Nulificação</p>
+            <table>
+                <tr>
+                    <th>A</th>
+                    <th>C</th>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <th>D</th>
+                </tr>
+            </table>
+        </main>
+    </div>
+</body>
+
 </html>
