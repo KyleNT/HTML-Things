@@ -1,0 +1,22 @@
+body {background-color:aliceblue}
+p {
+    margin-left: 20px;
+    text-align: center;}
+div { padding: 20px;
+    width: center;
+    margin: 20px;
+}
+div.espaco{
+    height: fit-content;
+    width: center; 
+    background-color: white;
+    padding: 20px;
+    border:1px solid white;
+    margin: 20px;
+}
+figure{
+    margin:0 auto; 
+    padding: 5px; 
+    max-width: 330px; 
+    text-align: center;
+}

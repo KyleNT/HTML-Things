@@ -1,0 +1,25 @@
+body {background-color:aliceblue}
+div { padding: 20px;
+    width: center;
+    margin: 20px;
+}
+div.spot{
+    height: fit-content;
+    width: center; 
+    background-color: white;
+    padding: 20px;
+    border:1px solid white;
+    margin: 20px;
+}
+div.titlen{
+    height: fit-content;
+    width: center; 
+    background-color: white;
+    border:1px solid white;
+}
+figure{
+    margin:0 auto; 
+    padding: 5px; 
+    max-width: 330px; 
+    text-align: center;
+}

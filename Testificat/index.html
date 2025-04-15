@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Windows Vista</title>
+    <style>
+        table{
+            font-family: arial, sans-serif;
+            border-collapse: collapse; width:100%;
+        }
+        td,th{
+            border:1px solid #dddddd; text-align:left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color:#dddddd
+        }
+    </style>
+</head>
+<body>
+    <header>Desgraça Feia (Cabeçalho)</header>
+    <nav>Nave</nav>
+    <aside>Lado</aside>
+    <main>
+        <h1>Hello</h1>
+        <p>Lorem Ipsum Ayum Shameimarum</p>
+        <h1> Tabela</h1>
+        <div>
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Business</th>
+                            <th>Contact</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BIC 1</td>
+                            <td>Tsukasa Kudamaki</td>
+                            <td>Japão</td>
+                        </tr>
+                        <tr>
+                            <td>BIC 2</td>
+                            <td>Nitori Kawashiro</td>
+                            <td>Coreia do Sul</td>
+                        </tr>
+                        <tr>
+                            <td>BIC 3</td>
+                            <td>Hina Kagiyama</td>
+                            <td>Taiwan</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Atendemos 24 Horas</td>
+                        </tr>
+                    </tfoot>
+                </div>
+                </table>
+            </section>
+
+        <section>
+            <article>
+                <p>Artigo Zero</p>
+                <p><b>Artigo 1: </b> <strong> Conceitos Gerais</strong></p>
+                <p><i>Artigo 2: </i> <em> Conceitos Teológicos</em></p>
+                <p><mark>Artigo 3: Conceito Previdenciário</mark></p>
+                <p><del>Artigo 4: Conceito Trabalhista</del></p>
+                <p><sup>Artigo 5: Conceito Consuetudinário</sup></p>
+                <p><sub>Artigo 6: Conceito Linguístico</sub></p>
+                <p><abbr title="Conceito Abstrato">Artigo 7</abbr></p>
+            </article>
+
+            <article>
+                <video src= "https://www.youtube.com/watch?v=dYvvKyYIc5s&t" controls></video>
+            </article>
+            <article>
+                <p>Lista Ordenanda</p>
+                <ol>
+                    <li>
+                        Paiol I
+                        <ol>
+                            <li>
+                                Paiol I/II
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        Paiol II
+                    </li>
+                    <li>
+                        Paiol III
+                    </li>
+                </ol>
+                <p>Lista Não-Ordenada</p>
+                <ul>
+                    <li>
+                        Paiol I
+                    </li>
+                        <ul>
+                            <li>
+                                Paiol I/I
+                            </li>
+                            <li>
+                                Paiol I/II
+                            </li>          
+                            <li>
+                                Paiol I/III
+                            </li>                 
+                        </ul>
+                    <li>
+                        Paiol II
+                    </li>
+                    <li>
+                        Paiol III
+                    </li>
+                </ul>
+                <p>Lista de Definição</p>
+                <dl>
+                    <dt> Paiol I</dt>
+                        <dd>Explosão em Paiol em 1995</dd>
+                    <dt> Paiol II</dt>
+                        <dd>Explosão em Paiol em 1996</dd>  
+                    <dt> Paiol III</dt>
+                        <dd>Explosão em Paiol em 1995</dd> 
+                </dl>
+            </article>
+        </section>
+
+        <section>
+            <h1>Formulário</h1>
+            
+            <fieldset>
+            <form action="">
+                <label for="username">Usuário: </label> <br>
+                <input type="text" id="username" name="username"><br>
+
+                <label for="pwd">Senha: </label> <br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                
+                <label for="phone">Telefone: </label> <br><br>
+                <input type="tel" id="phone" name="phone" placeholder="(12) 12345-6789" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}" required><br><br>
+                <small>Format (12) 12345-6789</small><br><br>
+
+                <input type="radio" id="html" name="fav_lag" value="HTML">
+                <label for="html">HTML</label>
+
+                <input type="radio" id="css" name="fav_lag" value="CSS">
+                <label for="html">CSS</label><br>
+
+                <label for="html">CPMI: </label><br>
+                <input type="text" id="cpmi" name="cpmi" maxlength="11" minlength="11"><br>
+
+                <label for="html">E-mail</label>
+                <input type="email" id="email" name="email" required="true">
+                <br>
+
+                <label for="favcolor">Cor Favorita: </label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+
+                <label for="birthday">Aniversário: </label>
+                <input type="date" id="birthday" name="birthday"><br>
+
+                <label for="vol">Volume (0~42): </label>
+                <input type="range" id="vol" name="vol" min="0" max="42"><br>
+
+                <label for="quantity">Quantidade: </label>
+                <input type="number" id="quantity" name="quantity" min="0" max="64" step="4" value="32"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+        </section>
+    </main>
+    <hr>
+    <footer> Karium, 2023</footer>
+</body>
+</html>
